@@ -11,3 +11,7 @@ clean:
 .PHONY: deploy
 deploy: clean build
 	npm run deploy
+
+.PHONY: remove
+remove:
+	npm run remove
