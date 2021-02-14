@@ -1,0 +1,14 @@
+{
+  "name": "sls_aws_go_mod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "deploy": "sls deploy --verbose",
+    "hello": "sls invoke local --docker -f hello -d {}"
+  },
+  "devDependencies": {
+    "serverless": "^2.23.0"
+  }
+}
