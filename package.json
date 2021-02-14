@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "deploy": "sls deploy --verbose",
+    "deploy:prod": "sls deploy --verbose --stage production",
+    "remove": "sls remove --verbose",
     "hello": "sls invoke local --docker -f hello -d {}"
   },
   "devDependencies": {
