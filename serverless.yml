@@ -24,9 +24,7 @@ provider:
   name: aws
   runtime: go1.x
   lambdaHashingVersion: 20201221
-
-  # you can overwrite defaults here
-  #stage: dev
+  stage: ${opt:stage, self:custom.defaultStage}
   region: ap-northeast-1
 
 # you can add statements to the Lambda function's IAM Role here
@@ -48,6 +46,9 @@ provider:
 # you can define service wide environment variables here
 #  environment:
 #    variable1: value1
+
+custom:
+  defaultStage: development
 
 package:
   exclude:
