@@ -37,3 +37,4 @@ npx sls invoke local --docker -f hello -d {}
 ```sh
 make deploy
 ```
+# sls_aws_go_mod
