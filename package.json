@@ -1,8 +1,7 @@
 {
   "name": "sls_aws_go_mod",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Serverless Framework で AWS Lambda を動かしたい",
   "private": true,
   "scripts": {
     "deploy": "sls deploy --verbose",
